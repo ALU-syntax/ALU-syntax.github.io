@@ -2138,7 +2138,7 @@ select.mobile-device {
 -------------------------------------------------------------------*/
 
 .cac {
-    background-color: #232323;
+    background-color: #6ad649;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -2166,7 +2166,7 @@ select.mobile-device {
 .footer {
     padding: 90px 0 80px !important;
     color: #999;
-    background-color: #333333;
+    background-color: #a8cf45;
 }
 
 .footer .widget-title {
@@ -2239,7 +2239,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #393939;
+    background-color: #a8cf45;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
