@@ -42,6 +42,51 @@
       "address":"Jl. Sentul Raya, Bogor.",
       "agent":"Deddy Corbuzier",
       "date":"17 Des 2021"
+   },
+
+   {
+      "id":"4",
+      "picture":"home_01.jpg",
+      "status":"Common",
+      "price":"Rp. 1.500.000.000 / Unit",
+      "title":"Griya Asri",
+      "info1":"3 Bedrooms, 2 Bathrooms",
+      "info2":"Land Size: 2000 square",
+      "info3":"Building Size: 1000 square",
+      "contact":"WhatsApp : 0823-8122-293 (Tono)",
+      "address":"Jl. Jayabagus, Sidoarjo.",
+      "agent":"Ahmad Yudi",
+      "date":"12 Nov 2021"
+   },
+
+   {
+      "id":"5",
+      "picture":"home_02.jpg",
+      "status":"Rare",
+      "price":"Rp. 2.000.000.000 / Unit",
+      "title":"Perumahan Beverly Hills",
+      "info1":"4 Bedrooms, 4 Bathrooms",
+      "info2":"Land Size: 3000 square",
+      "info3":"Building Size: 2000 square",
+      "contact":"WhatsApp : 0811-2832-9123 (Wahyono)",
+      "address":"Jl. Kalitengah, Jakarta.",
+      "agent":"Udin",
+      "date":"1 Jan 2022"
+   },
+
+   {
+      "id":"6",
+      "picture":"home_03.jpg",
+      "status":"Popular",
+      "price":"Rp. 1.900.000.000 / Unit",
+      "title":"Perumahan Beverly Hills",
+      "info1":"4 Bedrooms, 3 Bathrooms",
+      "info2":"Land Size: 2000 square",
+      "info3":"Building Size: 1900 square",
+      "contact":"WhatsApp : 0899-2731-9054 (Prima)",
+      "address":"Jl. Wonokudul, Medan.",
+      "agent":"Siti Marinah",
+      "date":"20 Mar 2022"
    }
 
 ]
