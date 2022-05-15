@@ -1,0 +1,29 @@
+[
+    {
+       "id":"1",
+       "picture":"testi_01.png",
+       "title":"Rekomended!!",
+       "desc":"Saya sebagai kucing nyaman tidur di kasur salah satu rumah yang dibeli majikan saya dan luas sekali saya suka bermain keliling-keliling.",
+       "name":"Bejo",
+       "job":"- Kucing Rumahan"
+    },
+
+    {
+        "id":"2",
+        "picture":"testi_02.png",
+        "title":"PeWe~~!",
+        "desc":"Villa yang saya beli cukup cozy suasananya dan buat saya sampai ketiduran.",
+        "name":"Kim Ti Dor",
+        "job":"- Sleeping Beauty"
+     },
+
+     {
+        "id":"3",
+        "picture":"testi_03.png",
+        "title":"Pelayanan Mewah, Harga Murah",
+        "desc":"Saya sudah beli banyak estate disini dan boleh saya bilang agennya ramah-ramah. Harganya beda dengan rumah-rumah di Kor## Uta##",
+        "name":"Pik Jong Un",
+        "job":"- Orang Penting"
+     }
+
+]
