@@ -84,7 +84,7 @@
                                             items.push("<div class = 'property-wrap'>");
                                                 items.push("<figure class = 'post-media wow fadeIn'>");
                                                     items.push("<a href='uploads/"+val.picture+"' data-rel='prettyPhoto[gal]' class='hoverbutton global-radius'><i class='flaticon-unlink'></i></a>");   
-                                                    items.push("<img src='uploads/"+val.picture+"' alt='' class='img-responsive'>");
+                                                    items.push("<img src='uploads/"+val.picture+"' alt='' class='img-responsive' style='height: 250px;'>");
                                                     items.push("<div class='label-inner'>");
                                                         items.push("<span class='label-status label'>"+val.status+"</span>");
                                                     items.push("</div>");
@@ -137,7 +137,7 @@
             <div class="section-title row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <h3>Happy Customers</h3>
-                    <p class="lead">Ini adalah beberapa Review dari customer kami.</p>
+                    <p class="lead" >Ini adalah beberapa Review dari customer kami.</p>
                 </div>
             </div>
 
@@ -149,13 +149,13 @@
                             
                                 items.push("<div class='col-md-12 col-sm-12'>");
                                     items.push("<div class='testimonial clearfix'>");
-                                        items.push("<div class='desc'>");
-                                            items.push("<h3><i class='fa fa-quote-left'></i>"+val.title+" <i class='fa fa-quote-right'></i></h3>");
-                                            items.push("<p class='lead' style='color: dimgray; font-size:medium ;'>"+val.desc+"</p>");
-                                        items.push("</div>");
-                                        items.push("<div class='testi-meta'>");
+                                        items.push("<div class='testi-meta' style='text-align: center;'>");
                                             items.push("<img src='uploads/"+val.picture+"' alt='' class='img-responsive alignleft'>");
                                             items.push("<h4>"+val.name+" <small>"+val.job+"</small></h4>");
+                                        items.push("</div>");
+                                        items.push("<div class='desc'>");
+                                            items.push("<h3><i class='glyphicon glyphicon-star' style='color:darkorange ;'></i><i class='glyphicon glyphicon-star' style='color:darkorange ;'></i> <i class='glyphicon glyphicon-star' style='color:darkorange ;'></i> <i class='glyphicon glyphicon-star' style='color:darkorange ;'></i> <i class='glyphicon glyphicon-star' style='color:darkorange ;'></i></h3>");
+                                            items.push("<p class='lead' style='color: dimgray; font-size:medium ;'>"+val.desc+"</p>");
                                         items.push("</div>");
                                     items.push("</div>");
                                 items.push("</div>");
@@ -237,12 +237,9 @@ $(document).ready(function() {
  
  $(".owl-carousel").owlCarousel({
 
-     items : 3,
-     itemsDesktop : [1199,3],
-     itemsDesktopSmall : [979,3],
      center: true,
      loop:true,
-
+     
      responsive: {
        0: {
             items: 1
