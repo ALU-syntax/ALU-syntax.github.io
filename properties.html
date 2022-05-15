@@ -70,7 +70,8 @@
             </div>
 
             <br>
-            <div class="invis">
+            <div class="test">
+
                 <div class="row content-property" id="list-properties">
                     <script>
                         $.getJSON("data.json",function(data){
@@ -82,8 +83,8 @@
                                         items.push("<div class = 'property-main'>");
                                             items.push("<div class = 'property-wrap'>");
                                                 items.push("<figure class = 'post-media wow fadeIn'>");
-                                                    items.push("<a href='"+val.picture+"' data-rel='prettyPhoto[gal]' class='hoverbutton global-radius'><i class='flaticon-unlink'></i></a>");   
-                                                    items.push("<img src='"+val.picture+"' alt='' class='img-responsive'>");
+                                                    items.push("<a href='uploads/"+val.picture+"' data-rel='prettyPhoto[gal]' class='hoverbutton global-radius'><i class='flaticon-unlink'></i></a>");   
+                                                    items.push("<img src='uploads/"+val.picture+"' alt='' class='img-responsive'>");
                                                     items.push("<div class='label-inner'>");
                                                         items.push("<span class='label-status label'>"+val.status+"</span>");
                                                     items.push("</div>");
@@ -276,6 +277,24 @@
     <script src="js/custom.js"></script>
     <script src="js/portfolio.js"></script>
     <script src="js/hoverdir.js"></script>
+    <script>
+
+$(document).ready(function() {
+ 
+ $(".owl-carousel").owlCarousel({
+
+     autoPlay: 3000,
+     items : 3,
+     itemsDesktop : [1199,3],
+     itemsDesktopSmall : [979,3],
+     center: true,
+     nav:true,
+     loop:true,
+
+ });
+
+});
+    </script>
 
 </body>
 
