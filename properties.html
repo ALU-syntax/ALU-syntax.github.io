@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="css/custom.css">
 
 <script src="js/modernizer.js"></script>
+<script src="js/jquery-3.6.0.js"></script>
 
 </head>
 
@@ -68,136 +69,182 @@
             </div>
 
             <hr class="invis">
-
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service-widget">
-                        <div class="property-main">
-                            <div class="property-wrap">
-                                <figure class="post-media wow fadeIn">
-                                    <a href="uploads/estate_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                                    <img src="uploads/estate_01.jpg" alt="" class="img-responsive">
-                                    <div class="label-inner">
-                                        <span class="label-status label">Popular</span>
-                                    </div>
-                                    <div class="price">
-                                        <span class="item-sub-price">Rp1.200.000.000 / Unit</span>
-                                    </div>
-                                </figure>
-                                <div class="item-body">
-                                    <h3>Istana Kebun Kencana</h3>
-                                    <div class="info">
-                                        <p><span>Bedroom: 4</span> <span>Bathroom: 2</span> <span>Land Size: <span class="estate-x-size">5000</span> <span class="estate-x-unit">square</span></span> <span>Building Size: <span class="estate-x-size">2400</span>                                            <span class="estate-x-unit">square</span></span>
-                                        </p>
-                                        <p>House</p>
-                                        <p>WhatsApp : 0878-6273-8212 (Iqbal Ramadhan)</p>
-                                    </div>
-                                    <div class="adderess">
-                                        <i class="fa fa-map-pin" aria-hidden="true"></i>Jl. Kencana, Bandung.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item-foot">
-                                <div class="pull-left">
-                                    <span class="prop-user-agent">
-									<i class="fa fa-user" aria-hidden="true"></i>
-									Milea Suara Dilan
-								</span>
-                                </div>
-                                <div class="pull-right">
-                                    <span class="prop-date">
-									<i class="fa fa-calendar" aria-hidden="true"></i>
-									9 Bulan yang lalu
-								</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service-widget">
-                        <div class="property-main">
-                            <div class="property-wrap">
-                                <figure class="post-media wow fadeIn">
-                                    <a href="uploads/estate_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                                    <img src="uploads/estate_03.jpg" alt="" class="img-responsive">
-                                    <div class="label-inner">
-                                        <span class="label-status label">Popular</span>
-                                    </div>
-                                    <div class="price">
-                                        <span class="item-sub-price">Rp4.200.000.000 / Unit</span>
-                                    </div>
-                                </figure>
-                                <div class="item-body">
-                                    <h3>Pondok Indah Residence</h3>
-                                    <div class="info">
-                                        <p><span>Bedroom: 2</span> <span>Bathroom: 2</span> <span>Land Size: <span class="estate-x-size">3000</span> <span class="estate-x-unit">square</span></span> <span>Building Size: <span class="estate-x-size">1400</span>                                            <span class="estate-x-unit">square</span></span>
-                                        </p>
-                                        <p>House</p>
-                                        <p>WhatsApp : 0812-6275-2712 (Anissa Azizah)</p>
-                                    </div>
-                                    <div class="adderess">
-                                        <i class="fa fa-map-pin" aria-hidden="true"></i> Jl. Pondok Indah, Jakarta.
+                <div class="top-feature owl-carousel owl-theme">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="service-widget">
+                            <div class="property-main">
+                                <div class="property-wrap">
+                                    <figure class="post-media wow fadeIn">
+                                        <a href="uploads/estate_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                        <img src="uploads/estate_01.jpg" alt="" class="img-responsive">
+                                        <div class="label-inner">
+                                            <span class="label-status label">Popular</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="item-sub-price">Rp1.200.000.000 / Unit</span>
+                                        </div>
+                                    </figure>
+                                    <div class="item-body">
+                                        <h3>Istana Kebun Kencana</h3>
+                                        <div class="info">
+                                            <p>4 Bedrooms, 2 Bathrooms</p>
+                                            <p>Land size : 4000 square</p>
+                                            <p>Building size : 2400 square</p>
+                                            <p>WhatsApp : 0878-6273-8212 (Iqbal Ramadhan)</p>
+                                        </div>
+                                        <div class="adderess">
+                                            <i class="fa fa-map-pin" aria-hidden="true"></i>Jl. Kencana, Bandung.
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="item-foot">
                                     <div class="pull-left">
                                         <span class="prop-user-agent">
-										<i class="fa fa-user" aria-hidden="true"></i>
-										Raditya Dika
-									</span>
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                        Milea Suara Dilan
+                                    </span>
                                     </div>
                                     <div class="pull-right">
                                         <span class="prop-date">
-										<i class="fa fa-calendar" aria-hidden="true"></i>
-										4 Bulan yang lalu
-									</span>
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        10 Mei 2022
+                                    </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="service-widget">
-                        <div class="property-main">
-                            <div class="property-wrap">
-                                <figure class="post-media wow fadeIn">
-                                    <a href="uploads/estate_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                                    <img src="uploads/estate_02.jpg" alt="" class="img-responsive">
-                                    <div class="label-inner">
-                                        <span class="label-status label">Rare</span>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="service-widget">
+                            <div class="property-main">
+                                <div class="property-wrap">
+                                    <figure class="post-media wow fadeIn">
+                                        <a href="uploads/estate_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                        <img src="uploads/estate_03.jpg" alt="" class="img-responsive">
+                                        <div class="label-inner">
+                                            <span class="label-status label">Popular</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="item-sub-price">Rp4.200.000.000 / Unit</span>
+                                        </div>
+                                    </figure>
+                                    <div class="item-body">
+                                        <h3>Pondok Indah Residence</h3>
+                                        <div class="info">
+                                            <p>2 Bedrooms, 2 Bathrooms</p>
+                                            <p>Land size : 3000 square</p>
+                                            <p>Building size : 1400 square</p>
+                                            <p>WhatsApp : 0812-6275-2712 (Anissa Azizah)</p>
+                                        </div>
+                                        <div class="address">
+                                            <i class="fa fa-map-pin" aria-hidden="true"></i> Jl. Pondok Indah, Jakarta.
+                                        </div>
                                     </div>
-                                    <div class="price">
-                                        <span class="item-sub-price">Rp2.900.000.000 / Unit</span>
-                                    </div>
-                                </figure>
-                                <div class="item-body">
-                                    <h3>Perumahan Mega Sentul</h3>
-                                    <div class="info">
-                                        <p><span>Bedroom: 3</span> <span>Bathroom: 2</span> <span>Land Size: <span class="estate-x-size">4000</span> <span class="estate-x-unit">square</span></span> <span>Building Size: <span class="estate-x-size">2000</span>                                            <span class="estate-x-unit">square</span></span>
-                                        </p>
-                                        <p>House</p>
-                                        <p>WhatsApp : 0813-2819-3729 (Deddy Cahyadi)</p>
-                                    </div>
-                                    <div class="adderess">
-                                        <i class="fa fa-map-pin" aria-hidden="true"></i>Jl. Sentul Raya, Bogor.
+                                    <div class="item-foot">
+                                        <div class="pull-left">
+                                            <span class="prop-user-agent">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            Raditya Dika
+                                        </span>
+                                        </div>
+                                        <div class="pull-right">
+                                            <span class="prop-date">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            5 Jan 2022
+                                        </span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="item-foot">
-                                    <div class="pull-left">
-                                        <span class="prop-user-agent">
-										<i class="fa fa-user" aria-hidden="true"></i>
-										Deddy Corbuizer
-									</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="service-widget">
+                            <div class="property-main">
+                                <div class="property-wrap">
+                                    <figure class="post-media wow fadeIn">
+                                        <a href="uploads/estate_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                        <img src="uploads/estate_02.jpg" alt="" class="img-responsive">
+                                        <div class="label-inner">
+                                            <span class="label-status label">Rare</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="item-sub-price">Rp2.900.000.000 / Unit</span>
+                                        </div>
+                                    </figure>
+                                    <div class="item-body">
+                                        <h3>Perumahan Mega Sentul</h3>
+                                        <div class="info">
+                                            <p><span>Bedroom: 3</span> <span>Bathroom: 2</span> <span>Land Size: <span class="estate-x-size">4000</span> <span class="estate-x-unit">square</span></span> <span>Building Size: <span class="estate-x-size">2000</span>                                            <span class="estate-x-unit">square</span></span>
+                                            </p>
+                                            <p>House</p>
+                                            <p>WhatsApp : 0813-2819-3729 (Deddy Cahyadi)</p>
+                                        </div>
+                                        <div class="adderess">
+                                            <i class="fa fa-map-pin" aria-hidden="true"></i>Jl. Sentul Raya, Bogor.
+                                        </div>
                                     </div>
-                                    <div class="pull-right">
-                                        <span class="prop-date">
-										<i class="fa fa-calendar" aria-hidden="true"></i>
-										1 Bulan yang lalu
-									</span>
+                                    <div class="item-foot">
+                                        <div class="pull-left">
+                                            <span class="prop-user-agent">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            Deddy Corbuizer
+                                        </span>
+                                        </div>
+                                        <div class="pull-right">
+                                            <span class="prop-date">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            27 Mar 2022
+                                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="service-widget">
+                            <div class="property-main">
+                                <div class="property-wrap">
+                                    <figure class="post-media wow fadeIn">
+                                        <a href="uploads/estate_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                        <img src="uploads/estate_02.jpg" alt="" class="img-responsive">
+                                        <div class="label-inner">
+                                            <span class="label-status label">Rare</span>
+                                        </div>
+                                        <div class="price">
+                                            <span class="item-sub-price">Rp2.900.000.000 / Unit</span>
+                                        </div>
+                                    </figure>
+                                    <div class="item-body">
+                                        <h3>Perumahan Mega Sentul</h3>
+                                        <div class="info">
+                                            <p><span>Bedroom: 3</span> <span>Bathroom: 2</span> <span>Land Size: <span class="estate-x-size">4000</span> <span class="estate-x-unit">square</span></span> <span>Building Size: <span class="estate-x-size">2000</span>                                            <span class="estate-x-unit">square</span></span>
+                                            </p>
+                                            <p>House</p>
+                                            <p>WhatsApp : 0813-2819-3729 (Deddy Cahyadi)</p>
+                                        </div>
+                                        <div class="adderess">
+                                            <i class="fa fa-map-pin" aria-hidden="true"></i>Jl. Sentul Raya, Bogor.
+                                        </div>
+                                    </div>
+                                    <div class="item-foot">
+                                        <div class="pull-left">
+                                            <span class="prop-user-agent">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            Deddy Corbuizer
+                                        </span>
+                                        </div>
+                                        <div class="pull-right">
+                                            <span class="prop-date">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            9 Des 2021
+                                        </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -311,9 +358,7 @@
 
                         <ul class="twitter-widget footer-links">
                             <li><a href="#"> Home </a></li>
-                            <li><a href="#"> About Us </a></li>
                             <li><a href="#"> Properties</a></li>
-                            <li><a href="#"> Contact</a></li>
                         </ul>
                     </div>
                 </div>

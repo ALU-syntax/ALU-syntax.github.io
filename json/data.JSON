@@ -1,0 +1,18 @@
+[
+    {
+       "id":"1",
+       "a":"uploads/estate_03.jpg",
+       "picture":"uploads/estate_03.jpg",
+       "status":"popular",
+       "price":"Rp. 1.200.000.000 / Unit",
+       "title":"Pondok Indah Residence",
+       "info1":"4 Bedrooms, 2 Bathrooms",
+       "info2":"Land Size: 4000 square",
+       "info3":"Building Size: 2400 square",
+       "contact":"WhatsApp : 0878-6273-8212 (Iqbal Ramadhan)",
+       "address":"Jl. Kencana, Bandung.",
+       "agent":"Milea Suara Dilan",
+       "date":"10 Mei 2022",
+       "favorit":"true"
+    }
+]
