@@ -288,8 +288,16 @@ $(document).ready(function() {
      itemsDesktop : [1199,3],
      itemsDesktopSmall : [979,3],
      center: true,
-     nav:true,
      loop:true,
+
+     responsive: {
+       0: {
+         items: 1
+       },
+       800: {
+        items: 3
+       }
+     }
 
  });
 
