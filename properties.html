@@ -151,7 +151,7 @@
                                     items.push("<div class='testimonial clearfix'>");
                                         items.push("<div class='desc'>");
                                             items.push("<h3><i class='fa fa-quote-left'></i>"+val.title+" <i class='fa fa-quote-right'></i></h3>");
-                                            items.push("<p class='lead'>"+val.desc+"</p>");
+                                            items.push("<p class='lead' style='color: dimgray; font-size:medium ;'>"+val.desc+"</p>");
                                         items.push("</div>");
                                         items.push("<div class='testi-meta'>");
                                             items.push("<img src='uploads/"+val.picture+"' alt='' class='img-responsive alignleft'>");
@@ -162,7 +162,7 @@
 
                             });
 
-                            $("<div/>",{"class":"testi-carousel owl-carousel owl-theme",html:items.join("")}).appendTo("#list-testi");
+                            $("<div/>",{"class":"test content-property",html:items.join("")}).appendTo("#list-testi");
                             
                         });
                     </script>
@@ -237,8 +237,6 @@ $(document).ready(function() {
  
  $(".owl-carousel").owlCarousel({
 
-     autoPlay: true,
-     autoPlay: 200,
      items : 3,
      itemsDesktop : [1199,3],
      itemsDesktopSmall : [979,3],
