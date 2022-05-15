@@ -1,7 +1,7 @@
 [
     {
        "id":"1",
-       "picture":"uploads/estate_03.jpg",
+       "picture":"estate_03.jpg",
        "status":"Popular",
        "price":"Rp. 1.200.000.000 / Unit",
        "title":"Istana Kebun Kencana",
@@ -16,7 +16,7 @@
 
     {
         "id":"2",
-        "picture":"uploads/estate_02.jpg",
+        "picture":"estate_02.jpg",
         "status":"Rare",
         "price":"Rp. 4.200.000.000 / Unit",
         "title":"Pondok Indah Residence ",
@@ -31,7 +31,7 @@
 
      {
       "id":"3",
-      "picture":"uploads/estate_01.jpg",
+      "picture":"estate_01.jpg",
       "status":"Popular",
       "price":"Rp. 2.900.000.000 / Unit",
       "title":"Perumahan Mega Sentul",
