@@ -57,7 +57,7 @@
     body.clinic_version .app_iphone_03 {
         right: -10%;
     }
-    .header_style_01 .navbar-default .navbar-nav > li > a {
+    .header_style_01 .navbar-default .navbar-nav>li>a {
         font-size: 14px;
     }
     .first-section .lead {
@@ -161,9 +161,7 @@
     body.realestate_version .property-detail .col-md-2 {
         margin: 15px 0;
     }
-    body.realestate_version .first-section {
-        
-    }
+    body.realestate_version .first-section {}
     body.realestate_version .header_style_01 {
         background-color: #ffffff;
     }
@@ -202,7 +200,7 @@
     }
     .navbar-default .navbar-toggle {
         border-color: #076799;
-        color: #ffffff ;
+        color: #ffffff;
         background-color: #076799;
     }
     .navbar-default .navbar-collapse,
@@ -218,7 +216,7 @@
     }
     .navbar-toggle {
         display: block;
-		border-radius: 2px;
+        border-radius: 2px;
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
@@ -251,7 +249,7 @@
         opacity: 1;
         top: 0 !important;
     }
-    .header_style_01 .navbar-default .navbar-nav > li a {
+    .header_style_01 .navbar-default .navbar-nav>li a {
         padding: 10px 15px;
     }
     .first-section .col-md-6 {
@@ -286,13 +284,13 @@
     .footer-distributed form input {
         width: 100%;
     }
-	.navbar-nav{
-		margin: 0px;
-	}
-	.contact_form{
-		padding: 20px 20px;
-		margin-bottom: 30px;
-	}
+    .navbar-nav {
+        margin: 0px;
+    }
+    .contact_form {
+        padding: 20px 20px;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -347,46 +345,47 @@
     .first-section h2 {
         font-size: 32px;
     }
-	.parallax.parallax-off{
-		height: auto;
-	}
-	.navbar-default .navbar-toggle .icon-bar{
-		background-color: #ffffff;
-	}
-	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-		border-color: #a8cf45;
-		background-color: #a8cf45;
-	}
-	.all-title-box{
-		text-align: center;
-	}
-	#breadcrumbs{
-		position: relative;
-		-webkit-transform: translateY(0%);
-		-moz-transform: translateY(0%);
-		-ms-transform: translateY(0%);
-		transform: translateY(0%);
-	}
-	.all-title-box h2{
-		margin-bottom: 20px;
-	}
-	body.realestate_version .first-section{}
-	.navbar-nav{
-		margin: 0px;
-	}
-	.item-foot{
-		padding: 14px 0px;
-	}
-	.single-services{
-		padding-bottom: 30px;
-	}
-	.right-box-contact .support-info{
-		padding: 20px 20px;
-	}
-	.contact_form{
-		padding: 20px 20px;
-		margin-bottom: 30px;
-	}
+    .parallax.parallax-off {
+        height: auto;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        border-color: #a8cf45;
+        background-color: #a8cf45;
+    }
+    .all-title-box {
+        text-align: center;
+    }
+    #breadcrumbs {
+        position: relative;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+    .all-title-box h2 {
+        margin-bottom: 20px;
+    }
+    body.realestate_version .first-section {}
+    .navbar-nav {
+        margin: 0px;
+    }
+    .item-foot {
+        padding: 14px 0px;
+    }
+    .single-services {
+        padding-bottom: 30px;
+    }
+    .right-box-contact .support-info {
+        padding: 20px 20px;
+    }
+    .contact_form {
+        padding: 20px 20px;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -400,6 +399,13 @@
     }
     body.app_version .btn-light i {
         display: none !important;
+    }
+    .card_container {
+        justify-content: flex-end;
+        display: table-row;
+    }
+    .card {
+        width: 300px;
     }
     .copyrights {
         padding: 40px 10px;
@@ -434,54 +440,55 @@
         float: left;
         border: 0 solid #ededed;
     }
-	.message-box.right-ab{
-		margin-top: 30px;
-	}
-	.parallax.parallax-off{
-		height: auto;
-	}
-	.navbar-default .navbar-toggle .icon-bar{
-		background-color: #ffffff;
-	}
-	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-		border-color: #a8cf45;
-		background-color: #a8cf45;
-	}
-	.all-title-box{
-		text-align: center;
-	}
-	#breadcrumbs{
-		position: relative;
-		-webkit-transform: translateY(0%);
-		-moz-transform: translateY(0%);
-		-ms-transform: translateY(0%);
-		transform: translateY(0%);
-	}
-	.all-title-box h2{
-		margin-bottom: 20px;
-	}
-	.message-box h2{
-		font-size: 28px;
-	}
-	.navbar-nav{
-		margin: 0px;
-	}
-	body.realestate_version .header_style_01 .navbar-right > li.search-option form.dropdown-menu{
-		width: 228px;
-	}
-	.fixed-menu .navbar-default{
-		padding: 15px;
-	}
-	.item-foot{
-		padding: 14px 0px;
-	}
-	.single-services{
-		padding-bottom: 30px;
-	}
-	.right-box-contact .support-info{
-		padding: 20px 20px;
-	}
-	.contact_form{
-		padding: 20px 20px;
-	}
+    .message-box.right-ab {
+        margin-top: 30px;
+    }
+    .parallax.parallax-off {
+        height: auto;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        border-color: #a8cf45;
+        background-color: #a8cf45;
+    }
+    .all-title-box {
+        text-align: center;
+    }
+    #breadcrumbs {
+        position: relative;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+    .all-title-box h2 {
+        margin-bottom: 20px;
+    }
+    .message-box h2 {
+        font-size: 28px;
+    }
+    .navbar-nav {
+        margin: 0px;
+    }
+    body.realestate_version .header_style_01 .navbar-right>li.search-option form.dropdown-menu {
+        width: 228px;
+    }
+    .fixed-menu .navbar-default {
+        padding: 15px;
+    }
+    .item-foot {
+        padding: 14px 0px;
+    }
+    .single-services {
+        padding-bottom: 30px;
+    }
+    .right-box-contact .support-info {
+        padding: 20px 20px;
+    }
+    .contact_form {
+        padding: 20px 20px;
+    }
 }
